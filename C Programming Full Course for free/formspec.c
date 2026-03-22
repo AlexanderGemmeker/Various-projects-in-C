@@ -11,9 +11,9 @@ int main(void)
     int num2 = 10;
     int num3 = 100;
 
-    printf("%d\n", num1);
-    printf("%d\n", num2);
-    printf("%d\n", num3);
+    printf("%+4d\n", num1); // 3,-3 or 03 as spaceholder
+    printf("%+4d\n", num2); // + The numbers can have a positive and negativ sign
+    printf("%+4d\n", num3);
 /*
     int age = 25;
     float price = 19.99;

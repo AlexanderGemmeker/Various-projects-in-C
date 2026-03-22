@@ -7,14 +7,34 @@ int main(void)
     //            Behaves as if it were the value it contains
 
     bool isOnline = true; // Boolean expression is binary true/1 false/0
+    bool isStudent = true;
+    bool forSale = false;
 
     if(isOnline)
     {
-        printf("You are ONLINE");
+        printf("You are ONLINE\n");
     }
     else
     {
-        printf("You are OFFLINE");
+        printf("You are OFFLINE\n");
+    }
+
+    if(isStudent)
+    {
+        printf("You are a student\n");
+    }
+    else
+    {
+        printf("You are NOT a student\n");
+    }
+
+    if(forSale)
+    {
+        printf("That item is for sale\n");
+    }
+    else
+    {
+        printf("That item is NOT for sale\n");
     }
     //  printf("%d", isOnline);
 //________________________________________________________________________________   

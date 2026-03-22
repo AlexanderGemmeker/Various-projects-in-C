@@ -6,6 +6,18 @@ int main(void)
     // and optional modifiers (width, precision, flags)
     // They control how data is displayed ot interpreteted.
 {
+
+    // percision
+    float price1 = 19.99;
+    float price2 = 1.50;
+    float price3 = -100.00;
+ 
+    printf("%+7.2f\n", price1); // 2 digits after the price
+    printf("%+7.2f\n", price2);
+    printf("%+7.2f\n", price3);
+/*
+//________________________________________________________________________________
+
     // width
     int num1 = 1;
     int num2 = 10;
@@ -14,7 +26,8 @@ int main(void)
     printf("%+4d\n", num1); // 3,-3 or 03 as spaceholder
     printf("%+4d\n", num2); // + The numbers can have a positive and negativ sign
     printf("%+4d\n", num3);
-/*
+//________________________________________________________________________________
+
     int age = 25;
     float price = 19.99;
     double pi = 3.1515926535;

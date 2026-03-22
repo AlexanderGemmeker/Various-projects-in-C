@@ -1,14 +1,32 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(void)
 {
     // variable = A reusable container for a value.
     //            Behaves as if it were the value it contains
 
+    bool isOnline = true; // Boolean expression is binary true/1 false/0
+
+    printf("%d", isOnline);
+//________________________________________________________________________________   
+/*
+    char name[] = "Bro Code";
+    char food[] = "pizza";
+    char email[] = "fake123@gmail.com";
+
+    printf("Hello %s\n", name);
+    printf("Your favorite food is %s\n", food);
+    printf("Your email is %s\n", email);    
+//________________________________________________________________________________
+
     char grade = 'A';
+    char symbol = '!';
+    char currency = '$';
 
     printf("Your grade is %c\n", grade);
-/*
+    printf("Your favorite symbol is %c\n", symbol);
+    printf("The currency is %c\n", currency);
 //________________________________________________________________________________
 
     double pi = 3.14159265358979;

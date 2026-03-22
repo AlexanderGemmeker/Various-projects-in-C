@@ -8,7 +8,15 @@ int main(void)
 
     bool isOnline = true; // Boolean expression is binary true/1 false/0
 
-    printf("%d", isOnline);
+    if(isOnline)
+    {
+        printf("You are ONLINE");
+    }
+    else
+    {
+        printf("You are OFFLINE");
+    }
+    //  printf("%d", isOnline);
 //________________________________________________________________________________   
 /*
     char name[] = "Bro Code";

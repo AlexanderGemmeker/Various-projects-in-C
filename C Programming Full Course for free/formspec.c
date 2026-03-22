@@ -7,7 +7,7 @@ int main(void)
     // They control how data is displayed ot interpreteted.
 {
 
-    // percision
+    // width percision and flags
     float price1 = 19.99;
     float price2 = 1.50;
     float price3 = -100.00;

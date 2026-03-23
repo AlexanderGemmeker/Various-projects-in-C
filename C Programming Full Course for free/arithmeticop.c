@@ -3,16 +3,17 @@
 int main(void)
 {
     // arithmetic operators = + - * / % ++ --
-    float x = 2;
-    float y = 3;
-    float z = 0;
+    int x = 10; // Float for devision
+    int y = 1;
+    int z = 0;
 
     // z = x + y;
     // z = x - y;
     // z = x * y;
-    z = x / y;
+    // z = x / y;
+    z = x % y;
 
-    printf("%f\n", z);
+    printf("%d\n", z);
 
     return 0;
 }

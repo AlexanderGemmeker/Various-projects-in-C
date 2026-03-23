@@ -10,8 +10,17 @@ int main(void)
     printf("Enter your age: ");
     scanf("%d", &age);
 
+    printf("Enter your gpa; ");
+    scanf("%f", &gpa);
+
+    printf("Enter you grade ");
+    scanf(" %c", &grade); // One space to skip the input buffer
+
+    printf("Enter your first name ");
+    scanf("%s", &name);
+
     printf("%d\n", age);
-    printf("%f\n", gpa);
+    printf("%.2f\n", gpa);
     printf("%c\n", grade);
     printf("%s\n", name);
 

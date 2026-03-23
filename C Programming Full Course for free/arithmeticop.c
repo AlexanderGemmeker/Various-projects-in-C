@@ -13,6 +13,14 @@ int main(void)
     // z = x / y;
     z = x % y;
 
+    x++; // ++increment --decrement
+
+    // augmented assignment operators
+    // x+=2; // x = x + 2
+    // x-=2;
+    // x*=2
+    // x/=2
+
     printf("%d\n", z);
 
     return 0;

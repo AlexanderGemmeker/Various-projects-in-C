@@ -20,7 +20,7 @@ int main(void)
     getchar();
     printf("Enter your full name ");
     fgets(name, sizeof(name), stdin); // File gets string, scanf can´t work with spaces
-    name[strlen(name) - 1] '\0'; // New line character is removed
+    name[strlen(name) - 1] = '\0'; // New line character is removed
 
     printf("%s\n", name);
     printf("%d\n", age);

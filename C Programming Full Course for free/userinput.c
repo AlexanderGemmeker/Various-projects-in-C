@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {   
@@ -14,15 +15,18 @@ int main(void)
     scanf("%f", &gpa);
 
     printf("Enter you grade ");
-    scanf(" %c", &grade); // One space to skip the input buffer
+    scanf(" %c", &grade); // One space to skip/clear the input buffer
 
-    printf("Enter your first name ");
-    scanf("%s", &name);
+    getchar();
+    printf("Enter your full name ");
+    fgets(name, sizeof(name), stdin); // File gets string, scanf can´t work with spaces
+    name[strlen(name) - 1] '\0'; // New line character is removed
 
+    printf("%s\n", name);
     printf("%d\n", age);
     printf("%.2f\n", gpa);
     printf("%c\n", grade);
-    printf("%s\n", name);
+    
 
     return 0;
 

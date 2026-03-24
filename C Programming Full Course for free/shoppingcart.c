@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
@@ -12,6 +13,7 @@ int main(void)
 
     printf("What item would you like to buy?: ");
     fgets(item, sizeof(item), stdin);
+    item[strlen(item) - 1] = '\0';
 
     printf("What is the price for each?: ");
     scanf("%f", &price);
@@ -21,7 +23,7 @@ int main(void)
 
     total = price * quantety;
 
-    printf("\nYour have bought %d %s", quantety, item);
+    printf("\nYour have bought %d %s\n", quantety, item);
     printf("%c%.2f", currency, total);
 
     return 0;

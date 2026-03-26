@@ -3,11 +3,17 @@
 
 int main(void)
 {
-    int x = 9;
+    // int x = 2;
+    float x = 3.99;
 
-    x = sqrt(x);
+    //x = sqrt(x);
+    //x = pow(x, 3);
+    //x = round(x);
+    //x = ceil(x);
+    //x = floor(x);
 
-    printf("%d", x);
+
+    printf("%f", x);
 
     return 0;
 

@@ -5,31 +5,32 @@
 
 int main(void){
 
-    int dayOfWeek = 0;
+    //int dayOfWeek = 0;
+    char dayOfWeek = '\0';
 
-    printf("Enter a day of the week (1-7): ");
-    scanf("%d", &dayOfWeek);
+    printf("Enter a day of the week (M, T, W, R, F, S, U): ");
+    scanf("%c", &dayOfWeek);
 
     switch(dayOfWeek){
-        case 1:
+        case 'M':
             printf("It is Monday");
             break; // To break out of the switch
-        case 2:
+        case 'T':
             printf("It is Tuesday");
             break;
-        case 3:
+        case 'W':
             printf("It is Wednesday");
             break;
-        case 4:
+        case 'R':
             printf("It is Thursday");
             break;
-        case 5:
+        case 'F':
             printf("It is Friday");
             break;
-        case 6:
+        case 'S':
             printf("It is Saturday");
             break;
-        case 7:
+        case 'U':
             printf("It is Sunday");
             break;
     }

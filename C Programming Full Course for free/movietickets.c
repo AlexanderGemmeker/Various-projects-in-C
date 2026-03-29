@@ -6,5 +6,5 @@ int main(void){
     bool isStudent = true; // 10% discount
     bool isSenior = false; // 20% discount
 
-    
+    return 0;
 }

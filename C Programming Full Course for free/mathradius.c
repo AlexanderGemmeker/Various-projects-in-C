@@ -12,7 +12,7 @@ int main(void)
 
     area = PI * pow(radius, 2);
 
-    printf("Area: %lf", area);
+    printf("Area: %.2lf", area); // 2 digits after the decimal
 
     return 0;
 }

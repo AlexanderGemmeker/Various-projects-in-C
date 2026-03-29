@@ -5,7 +5,7 @@
 
 int main(void)
 {
-    int age = -1;
+    int age = 0;
 
     if(age >= 18){
         printf("You are an adult");
@@ -13,6 +13,10 @@ int main(void)
 
     else if(age < 0){
         printf("You haven't been born yet");
+    }
+
+    else if(age == 0){
+        printf("You are a newborn");
     }
 
     else{

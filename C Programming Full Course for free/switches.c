@@ -33,6 +33,8 @@ int main(void){
         case 'U':
             printf("It is Sunday");
             break;
+        default:
+            printf("Please only enter a character (M, T, W, R, F, S, U)");
     }
 
 // Old

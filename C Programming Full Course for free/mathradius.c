@@ -16,9 +16,9 @@ int main(void)
     surfaceArea = 4 * PI * pow(radius, 2);
     volume = (4.0 / 3.0) * PI * pow(radius, 3); // Prevent integer devision
 
-    printf("Area: %.2lf\n", area); // 2 digits after the decimal
-    printf("Surface Area: %.2lf\n", surfaceArea);
-    printf("Volume: %.2lf\n", volume);
+    printf("Area: %.2lfcm\n", area); // 2 digits after the decimal
+    printf("Surface Area: %.2lfcm\n", surfaceArea);
+    printf("Volume: %.2lfcm\n", volume);
 
     return 0;
 }

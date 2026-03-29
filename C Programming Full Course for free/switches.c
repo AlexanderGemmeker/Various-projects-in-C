@@ -5,9 +5,12 @@
 
 int main(void){
 
-    int dayOffWeek = 0;
+    int dayOfWeek = 0;
 
-    switch(dayOffWeek){
+    printf("Enter a day of the week (1-7): ");
+    scanf("%d", &dayOfWeek);
+
+    switch(dayOfWeek){
         case 1:
             printf("It is Monday");
             break; // To break out of the switch
@@ -33,25 +36,25 @@ int main(void){
 
 // Old
 /*
-    if(dayOffWeek == 1){
+    if(dayOfWeek == 1){
         printf("It is Monday");
     }
-    else if(dayOffWeek == 2){
+    else if(dayOfWeek == 2){
         printf("It is Tuesday");
     }
-    else if(dayOffWeek == 3){
+    else if(dayOfWeek == 3){
         printf("It is Wednesday");
     }
-    else if(dayOffWeek == 4){
+    else if(dayOfWeek == 4){
         printf("It is Thursday");
     }
-    else if(dayOffWeek == 5){
+    else if(dayOfWeek == 5){
         printf("It is Friday");
     }
-    else if(dayOffWeek == 6){
+    else if(dayOfWeek == 6){
         printf("It is Saturday");
     }
-    else if(dayOffWeek == 7){
+    else if(dayOfWeek == 7){
         printf("It is Sunday");
     }
     else{

@@ -7,7 +7,14 @@ int main(void)
 {
     int age = 0;
 
-    if(age >= 18){
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    if(age >= 65){
+        printf("You are a senior");
+    }
+
+    else if(age >= 18){
         printf("You are an adult");
     }
 

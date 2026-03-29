@@ -31,7 +31,7 @@ int main(void){
             break;
     }
 
-// Later
+// Old
 /*
     if(dayOffWeek == 1){
         printf("It is Monday");

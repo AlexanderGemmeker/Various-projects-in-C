@@ -13,7 +13,25 @@ int main(void){
     scanf("%lf", &num1);
 
     printf("Enter the operator (+ - * /): ");
-    scanf("%c", &num1);
+    scanf(" %c", &operator); // clear \n from input buffer
+
+    printf("Enter the second number: ");
+    scanf("%lf", &num2);
+
+    switch(operator){
+        case '+':
+            result = num1 + num2;
+            break;
+        case '-':
+            result = num1 - num2;
+            break;
+        case '*':
+            result = num1 * num2;
+            break;
+        case '/':
+            result = num1 / num2;
+            break;
+    }
 
     return 0;
 }

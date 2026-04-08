@@ -33,5 +33,7 @@ int main(void){
             break;
     }
 
+    printf("Result: %.4lf", result);
+
     return 0;
 }

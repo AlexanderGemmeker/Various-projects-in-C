@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(void){
 
@@ -8,6 +9,16 @@ int main(void){
     // || = OR
     // ! = NOT
 
+    bool isSunny = true;
+
+    if(isSunny){
+        printf("It is SUNNY outside");
+    }
+    else{
+        printf("It is CLOUDY outside");
+    }
+
+/*
     int temp = 20;
 
     if(temp <= 0 || temp >= 30){
@@ -16,6 +27,7 @@ int main(void){
     else{
         printf("The temperatur is GOOD");
     }
-
+*/
     return 0;
+
 }

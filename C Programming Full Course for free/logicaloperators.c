@@ -8,9 +8,9 @@ int main(void){
     // || = OR
     // ! = NOT
 
-    int temp = 5;
+    int temp = 20;
 
-    if(temp >= 0 || temp <= 30){
+    if(temp <= 0 || temp >= 30){
         printf("The temperatur is BAD");
     }
     else{

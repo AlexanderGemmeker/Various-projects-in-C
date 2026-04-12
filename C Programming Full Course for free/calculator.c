@@ -29,7 +29,12 @@ int main(void){
             result = num1 * num2;
             break;
         case '/':
-            result = num1 / num2;
+            if(num2 == 0){ // nested if-statement within a switch
+                printf("You can`t devide by zero!\n");
+            }
+            else{
+                result = num1 / num2;
+            }
             break;
         default:
             printf("Invalid operator\n");

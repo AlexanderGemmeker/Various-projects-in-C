@@ -11,11 +11,11 @@ int main(void){
 
     bool isSunny = true;
 
-    if(isSunny){
-        printf("It is SUNNY outside");
+    if(!isSunny){ // ! The opposite
+        printf("It is CLOUDY outside");
     }
     else{
-        printf("It is CLOUDY outside");
+        printf("It is SUNNY outside");
     }
 
 /*

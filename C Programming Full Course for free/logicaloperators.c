@@ -10,11 +10,11 @@ int main(void){
 
     int temp = 5;
 
-    if(temp > 0 && temp < 30){
-        printf("The temperatur is GOOD");
+    if(temp >= 0 || temp <= 30){
+        printf("The temperatur is BAD");
     }
     else{
-        printf("The temperatur is BAD");
+        printf("The temperatur is GOOD");
     }
 
     return 0;

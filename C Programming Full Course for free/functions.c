@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-void happyBirthday(char birthdayboi[], int yearsOld){
+void happyBirthday(char name[], int age){
     printf("\nHappy birthday to you! ");
     printf("\nHappy birthday to you! ");
-    printf("\nHappy birthday dear %s!", birthdayboi);
+    printf("\nHappy birthday dear %s!", name);
     printf("\nHappy birthday to you! ");
-    printf("\nYou are %d years old!\n", yearsOld);
+    printf("\nYou are %d years old!\n", age);
 }
 
 int main() {
